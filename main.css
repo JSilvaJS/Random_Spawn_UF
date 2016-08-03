@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+}
+
+.main_bg {
+	background-image: url(http://i.imgur.com/FqahDlg.png);
+	width: 100%;
+	height: 100vh;
+}
+
+.location_wrapper {
+    position: relative;
+    top: 445px;
+    left: 400px;
+    display: inline-flex;
+}
+
+.location_one {
+	background-image: url(http://i.imgur.com/Wl0VK24.png);
+	width: 425px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    top: 60px;
+    left: -210px;
+}
+
+.location_two {
+	background-image: url(http://i.imgur.com/MrgCXJk.png);
+	width: 425px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    top: -260px;
+    left: 350px;
+}
+
+.location_three {
+	background-image: url(http://i.imgur.com/ngyp5NE.png);
+	width: 425px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+
+.unicorn {
+	background-image: url(http://i.imgur.com/ZASoMNq.png);
+    width: 130px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.farmer {
+    background-image: url(http://i.imgur.com/S7ExoC2.png);
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

@@ -2,11 +2,10 @@
 
 var unicorns = [document.getElementById("first_uni"), document.getElementById("second_uni"), document.getElementById("third_uni"), document.getElementById("fourth_uni"), document.getElementById("fifth_uni")];
 
-
 unicorns.forEach(function(unicorn){
     var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
     var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
-   /*single unicorn here =>*/ $(unicorn).css({
+    $(unicorn).css({
         position: 'absolute',
         top: y + '%',
         left: x + '%',
